@@ -51,9 +51,11 @@ Helps You Understand: Where your model is making mistakes and which classes are 
 **Definition**: Regularization techniques prevent overfitting by adding a penalty for larger weights.
 **L1 Regularization (Lasso)**: Shrinks some weights to zero, which can help in feature selection.
 **L2 Regularization (Ridge)**: Distributes the penalty more evenly and discourages very large weights.
-**Key Takeaways**:
+
+
+## Key Takeaways:
 Accuracy alone isn’t always sufficient, especially with imbalanced datasets.
 Loss provides a more direct indication of how well the model is performing.
 Epochs determine how long the model should train; balance is important to avoid overfitting/underfitting.
 Precision, recall, and F1-score are crucial for understanding performance in classification tasks, especially when the dataset is imbalanced.
-Focus on these values as you train and evaluate your models, and always use validation or test data to ensure your model generalizes well to unseen data.
+Focus on these values as  training and evaluating  models, and always use validation or test data to ensure the model generalizes well to unseen data.
